@@ -1,0 +1,17 @@
+{
+  "test": "automationexercise",
+  "executiontime": 29839,
+  "status": "failed",
+  "errors": [
+    {
+      "message": "Error: locator.click: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'View Cart' })\u001b[22m\n",
+      "stack": "Error: locator.click: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'View Cart' })\u001b[22m\n\n    at C:\\Users\\User\\playwright_test\\tests\\day20\\logintest.spec.ts:15:53",
+      "location": {
+        "file": "C:\\Users\\User\\playwright_test\\tests\\day20\\logintest.spec.ts",
+        "column": 53,
+        "line": 15
+      },
+      "snippet": "\u001b[0m \u001b[90m 13 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m{name\u001b[33m:\u001b[39m\u001b[32m'Continue Shopping'\u001b[39m})\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 14 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'a[data-product-id=\"2\"]'\u001b[39m)\u001b[33m.\u001b[39mfirst()\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 15 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m{name\u001b[33m:\u001b[39m\u001b[32m\"View Cart\"\u001b[39m})\u001b[33m.\u001b[39mclick()\n \u001b[90m    |\u001b[39m                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 16 |\u001b[39m })\u001b[0m"
+    }
+  ]
+}

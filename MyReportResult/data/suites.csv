@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","6185","test2","chromium","Thu Jan 02 11:09:04 IST 2025","passed","Thu Jan 02 11:09:10 IST 2025","","reports.spec.ts","",""
+"","8909","test1","chromium","Thu Jan 02 11:08:55 IST 2025","passed","Thu Jan 02 11:09:04 IST 2025","","reports.spec.ts","",""
+"","6061","test4","chromium","Thu Jan 02 11:09:16 IST 2025","passed","Thu Jan 02 11:09:22 IST 2025","","reports2.spec.ts","",""
+"","5986","test3","chromium","Thu Jan 02 11:09:10 IST 2025","passed","Thu Jan 02 11:09:16 IST 2025","","reports2.spec.ts","",""

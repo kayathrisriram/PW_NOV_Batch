@@ -1,0 +1,272 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\User\\playwright_test\\playwright.config.ts",
+    "rootDir": "C:/Users/User/playwright_test/tests/day19",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/User/playwright_test/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/User/playwright_test/tests/day19",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.49.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "reports.spec.ts",
+      "file": "reports.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "test1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 5706,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-01-02T05:05:25.464Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\User\\playwright_test\\test-results\\reports-test1-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\User\\playwright_test\\test-results\\reports-test1-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d2ea609703bae19dcdce-9ccbf96749f0527d3c6f",
+          "file": "reports.spec.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "test2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 6400,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-01-02T05:05:31.523Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\User\\playwright_test\\test-results\\reports-test2-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\User\\playwright_test\\test-results\\reports-test2-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d2ea609703bae19dcdce-cd723da4fd691dffa53d",
+          "file": "reports.spec.ts",
+          "line": 11,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "reports2.spec.ts",
+      "file": "reports2.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "test3",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 6900,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-01-02T05:05:37.933Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\User\\playwright_test\\test-results\\reports2-test3-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\User\\playwright_test\\test-results\\reports2-test3-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "bfac3b9050d7946680cb-6362bc55c307f934ca32",
+          "file": "reports2.spec.ts",
+          "line": 2,
+          "column": 5
+        },
+        {
+          "title": "test4",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "failed",
+                  "duration": 1669,
+                  "error": {
+                    "message": "Error: page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://opensource-demo.orangehrmlive.com/\nCall log:\n\u001b[2m  - navigating to \"https://opensource-demo.orangehrmlive.com/\", waiting until \"load\"\u001b[22m\n",
+                    "stack": "Error: page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://opensource-demo.orangehrmlive.com/\nCall log:\n\u001b[2m  - navigating to \"https://opensource-demo.orangehrmlive.com/\", waiting until \"load\"\u001b[22m\n\n    at C:\\Users\\User\\playwright_test\\tests\\day19\\reports2.spec.ts:12:16",
+                    "location": {
+                      "file": "C:\\Users\\User\\playwright_test\\tests\\day19\\reports2.spec.ts",
+                      "column": 16,
+                      "line": 12
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 10 |\u001b[39m test(\u001b[32m'test4'\u001b[39m\u001b[33m,\u001b[39m\u001b[36masync\u001b[39m({page})\u001b[33m=>\u001b[39m\n \u001b[90m 11 |\u001b[39m     {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 12 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://opensource-demo.orangehrmlive.com/\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 13 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByPlaceholder(\u001b[32m\"Username\"\u001b[39m)\u001b[33m.\u001b[39mfill(\u001b[32m\"Admin\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 14 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByPlaceholder(\u001b[32m\"Password\"\u001b[39m)\u001b[33m.\u001b[39mfill(\u001b[32m\"admin123\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 15 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m{name\u001b[33m:\u001b[39m\u001b[35m/Login/\u001b[39m})\u001b[33m.\u001b[39mclick()\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\User\\playwright_test\\tests\\day19\\reports2.spec.ts",
+                        "column": 16,
+                        "line": 12
+                      },
+                      "message": "Error: page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://opensource-demo.orangehrmlive.com/\nCall log:\n\u001b[2m  - navigating to \"https://opensource-demo.orangehrmlive.com/\", waiting until \"load\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 10 |\u001b[39m test(\u001b[32m'test4'\u001b[39m\u001b[33m,\u001b[39m\u001b[36masync\u001b[39m({page})\u001b[33m=>\u001b[39m\n \u001b[90m 11 |\u001b[39m     {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 12 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://opensource-demo.orangehrmlive.com/\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 13 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByPlaceholder(\u001b[32m\"Username\"\u001b[39m)\u001b[33m.\u001b[39mfill(\u001b[32m\"Admin\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 14 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByPlaceholder(\u001b[32m\"Password\"\u001b[39m)\u001b[33m.\u001b[39mfill(\u001b[32m\"admin123\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 15 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m{name\u001b[33m:\u001b[39m\u001b[35m/Login/\u001b[39m})\u001b[33m.\u001b[39mclick()\u001b[0m\n\u001b[2m    at C:\\Users\\User\\playwright_test\\tests\\day19\\reports2.spec.ts:12:16\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-01-02T05:05:44.842Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\User\\playwright_test\\test-results\\reports2-test4-chromium\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\User\\playwright_test\\test-results\\reports2-test4-chromium\\video.webm"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\User\\playwright_test\\tests\\day19\\reports2.spec.ts",
+                    "column": 16,
+                    "line": 12
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "bfac3b9050d7946680cb-1963e14b6dc1044a4fdd",
+          "file": "reports2.spec.ts",
+          "line": 10,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-01-02T05:05:24.270Z",
+    "duration": 22433.871,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}
