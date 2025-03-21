@@ -7,7 +7,9 @@ test("autosuggestion ",async () =>
     const page=await context.newPage();
     await page.goto("https://www.google.com");
    await page.fill("[aria-label='Search']","playwright")
+
     await page.waitForSelector("//div[@role='presentation']//li//div[@role='option']")
+    
     const values=await page.$$("//div[@role='presentation']//li//div[@role='option']")
     for(let val of values)
         {

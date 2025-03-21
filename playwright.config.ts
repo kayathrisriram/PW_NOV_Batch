@@ -27,7 +27,7 @@ expect:{
   /* Retry on CI only */
   retries: process.env.CI ? 2 : 0,
   /* Opt out of parallel tests on CI. */
-  workers: process.env.CI ? 1 : 1,
+  workers: process.env.CI ? 1 : 2,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   //reporter:[['html',{open:'always'}]],
   //reporter:[['./customreport.ts']],
@@ -38,7 +38,7 @@ expect:{
   //reporter:[['list'],['html',{open:'always'}]],
   reporter:[['html',{open:'always'}]],
   //globalTeardown:'./globalTeardown.spec.ts',
-  timeout:90000,
+  timeout:60000,
  
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
@@ -59,9 +59,20 @@ expect:{
 
   /* Configure projects for major browsers */
   projects: [
-    
+    // {
+    //   name:'globalsetup',
+    //   testDir:'./',
+    //   testMatch:'global.spec.ts',
+    //   teardown:'globalTeardown'
+    // },
+    // {
+    //   name:'globalTeardown',
+    //   testDir:'./',
+    //   testMatch:'globaltear.spec.ts'
+    // },
     {
       name: 'chromium',
+      //dependencies:['globalsetup'],
       use: { ...devices['Desktop Chrome']
         ,viewport:{width:1920,height:1080} 
         }
